@@ -1,0 +1,42 @@
+#equalButton{
+    width: 332px;
+}
+h1{
+    text-align: center;
+    font-family: courier;
+    font-weight: bold;
+    font-size: 69px;
+}
+h2{
+    height: 30px;
+    margin-top: 0px;
+    text-align: center;
+    border-bottom-style: solid ;
+    border-right-style: solid ;
+    border-left-style: solid ;
+}
+p{
+    height: 26px;
+    margin-bottom: 0px;
+    text-align: right;
+    border-top-style: solid ;
+    border-left-style: solid ;
+    border-right-style: solid ;
+}
+#dividerOne{
+    width: 200px;
+    margin: auto;
+    background-color: lightgray;
+}
+#dividerTwo{
+    width: 335px;
+    margin: auto;
+}
+button{
+    width: 80px; 
+    height: 40px;
+    font-size: large;
+}
+#bodyBg{
+    background-size: cover;
+}
