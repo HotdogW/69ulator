@@ -62,8 +62,8 @@ document.getElementById('pointButton').onclick= function ()
 }
 document.getElementById('clearButton').onclick= function () 
 {
-   document.getElementById('textBox').innerHTML = '',
-   document.getElementById('textBox2').innerHTML = '';
+   document.getElementById('textBox2').innerHTML = document.getElementById('textBox').innerHTML;
+   document.getElementById('textBox').innerHTML = ''
 }
 document.getElementById('equalButton').onclick= function () 
 {
